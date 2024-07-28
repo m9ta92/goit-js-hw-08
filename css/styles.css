@@ -1,0 +1,51 @@
+body {
+    background: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px 156px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: calc((100% - 24px) / 4);
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
